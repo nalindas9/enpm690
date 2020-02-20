@@ -109,17 +109,30 @@ def des_train(learning_rate, gen, train_data, test_data, samples):
 	
 
 	op = test(AU_weights1, weights)
-	plt.plot(test_data[0], op)
 	if gen == 5:
+		plt.plot(test_data[0], op)
 		print('Predicted Output for Overlap =', gen)
 		plt.title('Predicted Function')
 		plt.ylabel('Predicted Output')
 		plt.xlabel('Testing Input')
 		plt.show()
+		plt.plot(test_data[0], test_data[1])
+		print('Actual Output for Overlap =', gen)
+		plt.title('Actual Function')
+		plt.ylabel('Actual Output')
+		plt.xlabel('Testing Input')
+		plt.show()
 	if gen == 10:
+		plt.plot(test_data[0], op)
 		print('Predicted Output for Overlap =', gen)
 		plt.title('Predicted Function')
 		plt.ylabel('Predicted Output')
+		plt.xlabel('Testing Input')
+		plt.show()
+		plt.plot(test_data[0], test_data[1])
+		print('Actual Output for Overlap =', gen)
+		plt.title('Actual Function')
+		plt.ylabel('Actual Output')
 		plt.xlabel('Testing Input')
 		plt.show()
 	
