@@ -39,18 +39,34 @@ plt.title('Test Data')
 plt.ylabel('Test Outputs')
 plt.xlabel('Test Inputs')
 plt.show()
-
+accuracy = []
+wind = []
+accuracy1 = []
+wind1 = []
 #-------------Discrete----------------#
 
 # Training for generalization factor gen from 1-->34
 
 for gen in range(1,35):
 	print('For discrete overlap = ', gen)
-	des_train(learning_rate, gen, train_data, test_data, samples)
-
+	error = des_train(learning_rate, gen, train_data, test_data, samples)
+	accuracy1.append(error)
+	wind1.append(gen)
+plt.plot(wind1,accuracy1)
+plt.title('Accuracy vs Window Size')
+plt.ylabel('Accuracy')
+plt.xlabel('Window Size')
+plt.show()
 for gen in range(1,35):
 	print('For continuous overlap = ', gen)
-	cont_train(learning_rate, gen, train_data, test_data, samples)
+	error = cont_train(learning_rate, gen, train_data, test_data, samples)
+	accuracy1.append(error)
+	wind1.append(gen)
+plt.plot(wind1,accuracy1)
+plt.title('Accuracy vs Window Size')
+plt.ylabel('Accuracy')
+plt.xlabel('Window Size')
+plt.show()
 
 
 

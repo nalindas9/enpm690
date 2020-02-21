@@ -135,8 +135,4 @@ def des_train(learning_rate, gen, train_data, test_data, samples):
 		plt.ylabel('Actual Output')
 		plt.xlabel('Testing Input')
 		plt.show()
-	
-	
-	
-
-
+	return mse
