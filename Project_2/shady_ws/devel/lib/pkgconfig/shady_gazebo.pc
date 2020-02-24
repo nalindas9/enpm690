@@ -1,0 +1,8 @@
+prefix=/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/devel
+
+Name: shady_gazebo
+Description: Description of shady_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

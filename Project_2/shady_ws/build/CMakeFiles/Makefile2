@@ -437,6 +437,24 @@ clean: shady_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory shady_gazebo
+
+# Convenience name for "all" pass in the directory.
+shady_gazebo/all:
+
+.PHONY : shady_gazebo/all
+
+# Convenience name for "clean" pass in the directory.
+shady_gazebo/clean:
+
+.PHONY : shady_gazebo/clean
+
+# Convenience name for "preinstall" pass in the directory.
+shady_gazebo/preinstall:
+
+.PHONY : shady_gazebo/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

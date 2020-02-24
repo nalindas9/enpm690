@@ -127,6 +127,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/build/gtest/cmake_install.cmake")
   include("/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/build/shady_description/cmake_install.cmake")
+  include("/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/build/shady_gazebo/cmake_install.cmake")
 
 endif()
 

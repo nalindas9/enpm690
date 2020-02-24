@@ -1,2 +1,2 @@
-shady_description
+shady_description:shady_gazebo
 -DCATKIN_DEVEL_PREFIX=/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/install -G Unix Makefiles
