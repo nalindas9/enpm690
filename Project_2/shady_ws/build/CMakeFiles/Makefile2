@@ -437,6 +437,24 @@ clean: shady_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory shady_examples
+
+# Convenience name for "all" pass in the directory.
+shady_examples/all:
+
+.PHONY : shady_examples/all
+
+# Convenience name for "clean" pass in the directory.
+shady_examples/clean:
+
+.PHONY : shady_examples/clean
+
+# Convenience name for "preinstall" pass in the directory.
+shady_examples/preinstall:
+
+.PHONY : shady_examples/preinstall
+
+#=============================================================================
 # Directory level rules for directory shady_gazebo
 
 # Convenience name for "all" pass in the directory.

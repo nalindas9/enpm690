@@ -6,4 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(shady_description)
+subdirs(shady_examples)
 subdirs(shady_gazebo)

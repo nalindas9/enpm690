@@ -324,6 +324,12 @@ shady_description_BINARY_DIR:STATIC=/home/nalindas9/Documents/Courses/Spring_202
 shady_description_SOURCE_DIR:STATIC=/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/src/shady_description
 
 //Value Computed by CMake
+shady_examples_BINARY_DIR:STATIC=/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/build/shady_examples
+
+//Value Computed by CMake
+shady_examples_SOURCE_DIR:STATIC=/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/src/shady_examples
+
+//Value Computed by CMake
 shady_gazebo_BINARY_DIR:STATIC=/home/nalindas9/Documents/Courses/Spring_2020_Semester_2/ENPM690_Robot_Learning/Github/enpm690/Project_2/shady_ws/build/shady_gazebo
 
 //Value Computed by CMake
@@ -431,7 +437,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
