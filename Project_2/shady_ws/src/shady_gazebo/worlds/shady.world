@@ -13,7 +13,7 @@
 			<pose>-3.0 0 0 0 0 0</pose>
 		</include>
 		<include>
-			<uri>model://construction_cone</uri>
+			<uri>model://oak_tree</uri>
 			<name>construction_cone</name>
 			<pose>3.0 0 0 0 0 0</pose>
 		</include>
